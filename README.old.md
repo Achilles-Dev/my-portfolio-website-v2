@@ -2,14 +2,13 @@
 
 # Project Name
 
-> Description the project.
+> My Portofilio Website version 2
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript
+- React, Tailwind CSS
 
 ## Live Demo (if available)
 
