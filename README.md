@@ -1,9 +1,5 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
-
-> My Portofilio Website version 2
-
+# My Portofilio Website version 2
+> This is a website that showcases my projects and skills. It was built using React and Tailwind CSS.
 
 ## Built With
 
@@ -17,39 +13,41 @@
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+* To get a local copy up and running follow these simple example steps.
 
-
-To get a local copy up and running follow these simple example steps.
+1. clone the repository to you machine using your terminal:
+   ```
+   git clone https://github.com/Achilles-Dev/my-portfolio-website-v2.git
+   ```
+   ```
+   cd my-portfolio-website-v2
+   ```
+   ```
+2. Install the npm:
+   ```
+   npm install
+   ```
+4. To run the server use:
+   ```
+   npm start
+   ```
 
 ### Prerequisites
-
-### Setup
+- React
+- Terminal
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- React
+- Tailwind CSS
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Solomon Hagan**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Achilles-Dev](https://github.com/Achilles-Dev/)
+- Twitter: [@SoloAchilles](https://twitter.com/SoloAchilles/)
+- LinkedIn: [Solomon Hagan](https://www.linkedin.com/in/solomon-hagan/) 
 
 ## 🤝 Contributing
 
