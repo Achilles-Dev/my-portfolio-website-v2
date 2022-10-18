@@ -33,17 +33,17 @@ const Header = () => {
         </div>
         <div className="hidden md:block">
           <ul className="flex gap-5 items-center text-white" id="nav-links">
-            <li className="p-2 focus:text-green hover:text-green">
-              <Link to="#about">About</Link>
+            <li className="p-2">
+              <Link to="#about" className="focus:text-green hover:text-green">About</Link>
             </li>
-            <li className="p-2 focus:text-green hover:text-green">
-              <Link to="#work">Work</Link>
+            <li className="p-2">
+              <Link to="#work" className="focus:text-green hover:text-green">Work</Link>
             </li>
-            <li className="p-2 focus:text-green hover:text-green">
-              <Link to="#contact">Contact</Link>
+            <li className="p-2">
+              <Link to="#contact" className="focus:text-green hover:text-green">Contact</Link>
             </li>
-            <li className="border p-2 border-green focus:text-green hover:text-green">
-              <Link to="#resume">Resume</Link>
+            <li className="border p-2 border-green hover:bg-slate-700">
+              <Link to="#resume" className="text-green">Resume</Link>
             </li>
           </ul>
         </div>
