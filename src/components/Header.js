@@ -12,12 +12,14 @@ const Header = () => {
   useEffect(() => {
     const navLinks = document.querySelector('#nav-links');
     navLinks.addEventListener('click', (e) => {
-      if (e.target.parentNode.nextElementSibling && e.target.parentNode.nextElementSibling.classList.contains('bottom-border')) {
-        e.target.parentNode.nextElementSibling.classList.remove('bottom-border');
-      } else if (e.target.parentNode.previousElementSibling && e.target.parentNode.previousElementSibling.classList.contains('bottom-border')) {
-        e.target.parentNode.previousElementSibling.classList.remove('bottom-border');
+      if (e.target.tagName === 'A') {
+        if (e.target.parentNode.nextElementSibling && e.target.parentNode.nextElementSibling.classList.contains('bottom-border')) {
+          e.target.parentNode.nextElementSibling.classList.remove('bottom-border');
+        } else if (e.target.parentNode.previousElementSibling && e.target.parentNode.previousElementSibling.classList.contains('bottom-border')) {
+          e.target.parentNode.previousElementSibling.classList.remove('bottom-border');
+        }
+        e.target.parentNode.classList.add('bottom-border');
       }
-      e.target.parentNode.classList.add('bottom-border');
     });
   }, []);
 
