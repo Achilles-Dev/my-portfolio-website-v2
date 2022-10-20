@@ -24,10 +24,10 @@ const Header = () => {
       <nav className="flex justify-between items-center">
         <div>
           <Link to="/" id="nav-link">
-            <img src={logoIcon} alt="SH" />
+            <img className="animate-spin-slow" src={logoIcon} alt="SH" />
           </Link>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden md:block animate-fade-in-down">
           <ul className="flex gap-5 items-center text-white" id="nav-links">
             <li className="p-2" id="nav-link">
               <Link to="#about" className="focus:text-green hover:text-green">About</Link>
