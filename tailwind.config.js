@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         navy: '#0a192f',
         green: '#64ffda',
+        'ligth-navy': '#112240',
       },
       animation: {
         'spin-slow': 'spin 2s linear',

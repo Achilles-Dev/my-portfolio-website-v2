@@ -6,4 +6,7 @@
   .bottom-border {
     @apply border-0 border-b-2 border-b-green text-green;
   }
+  .work-image {
+    @apply min-w-max min-h-max;
+  }
 }
