@@ -11,13 +11,13 @@ const sourceLink = {
 const projectDetails = [
   {
     id: 1,
-    name: 'To Do List',
-    description: 'A mobile view website that keeps track of activities to perform during the'
-                  + 'day and checks and deletes completed activities.',
-    image: './assets/images/react-todo.png',
-    technologies: ['HTML', 'CSS', 'React'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://achilles-dev.github.io/react-todo-app/' },
-    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/react-todo-app/' },
+    name: 'Motorcycle Booking Service',
+    description: `Book-an-appointment is based on an app
+                  to book an appointment to try a motorcycle.`,
+    image: './assets/images/Desktop-Snapshoot-Portfolio.png',
+    technologies: ['React', 'Redux', 'CSS', 'Bootstrap'],
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://preeminent-vacherin-1e2f8e.netlify.app/' },
+    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/book-an-appointment-front-end' },
   },
   {
     id: 2,
@@ -43,21 +43,20 @@ const projectDetails = [
   },
   {
     id: 4,
-    name: 'Motorcycle-booking-service',
-    description: `Book-an-appointment is based on an app
-                  to book an appointment to try a motorcycle.
-                  Front-end: https://github.com/AyoubMs/book-an-appointment-front-end`,
-    image: './assets/images/Desktop-Snapshoot-Portfolio.png',
-    technologies: ['React', 'Redux', 'CSS', 'Bootstrap'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://preeminent-vacherin-1e2f8e.netlify.app/' },
-    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/book-an-appointment-front-end' },
+    name: 'To Do List',
+    description: 'A mobile view website that keeps track of activities to perform during the'
+                  + 'day and checks and deletes completed activities.',
+    image: './assets/images/react-todo.png',
+    technologies: ['HTML', 'CSS', 'React'],
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://achilles-dev.github.io/react-todo-app/' },
+    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/react-todo-app/' },
   },
   {
     id: 5,
     name: 'Math Magicians App',
     description: `Math magicians" is a website for all fans of mathematics. 
-                  It is a Single Page App (SPA) that allows users to: <br />
-                  - make simple calculations and <br />
+                  It is a Single Page App (SPA) that allows users to:
+                  - make simple calculations and
                   - read a random math-related quote.`,
     image: './assets/images/Desktop-Snapshoot-Portfolio.png',
     technologies: ['React', 'CSS'],
