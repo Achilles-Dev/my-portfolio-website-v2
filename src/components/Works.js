@@ -31,7 +31,7 @@ const Works = () => {
                         <li key={tech}>{tech}</li>
                       ))}
                     </ul>
-                    <div className="flex gap-2 justify-end">
+                    <div className={`flex gap-2 justify-start ${project.id % 2 === 0 ? 'md:justify-start' : 'md:justify-end'}`}>
                       <a href={project['source-link']['source-href']} target="_blank" rel="noopener noreferrer">
                         <img src={githubIcon} alt="Github" />
                       </a>
@@ -40,7 +40,7 @@ const Works = () => {
                       </a>
                     </div>
                   </div>
-                  <div className={`h-80 opacity-25 md:opacity-100 bg-slate-200 relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[6_/_-1]' : 'md:col-[1_/_8]'} row-[1_/_-1] z-10`}>
+                  <div className={`opacity-25 h-full w-full md:opacity-100 bg-slate-200 relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[6_/_-1]' : 'md:col-[1_/_8]'} row-[1_/_-1] z-10`}>
                     <a className="work-image" href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer">
                       <img className="work-image" src="" alt={project.name} />
                     </a>
