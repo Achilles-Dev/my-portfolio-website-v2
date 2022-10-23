@@ -15,7 +15,7 @@ const Works = () => {
   }, []);
 
   return (
-    <section className="m-5 pb-12 md:p-14 lg:p-24 text-slate-300" id="work">
+    <section className="my-5 px-8 py-12 pb-12 md:p-14 lg:p-24 text-slate-300" id="work">
       <div>
         <div className=" flex justify-center">
           <h1 className="text-4xl p-3 border-0 border-b-2 border-b-green">My Recent Works</h1>
@@ -24,7 +24,7 @@ const Works = () => {
           { projects.map((project) => (
             project.id <= 3
               ? (
-                <li key={project.id} className="grid grid-cols-12 gap-2 mb-7 relative p-5 items-center">
+                <li key={project.id} className="grid grid-cols-12 gap-2 mb-7 relative items-center">
                   <div className={`flex flex-col gap-4 p-7 md-p-0 relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[1_/_9] lg:col-[1_/_7]' : 'md:col-[5_/_-1] lg:col-[7_/_-1]'} row-[1_/_-1] z-20`}>
                     <h2 className={`flex justify-start ${project.id % 2 === 0 ? 'md:justify-start' : 'md:justify-end'} text-3xl`}>
                       <a href={project['live-version-link']['link-href']} className="hover:text-green focus:text-green " target="_blank" rel="noopener noreferrer">
@@ -48,13 +48,11 @@ const Works = () => {
                       </a>
                     </div>
                   </div>
-                  <div className={`opacity-25 h-full w-full md:opacity-100 bg-slate-200 relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[6_/_-1]' : 'md:col-[1_/_8]'} row-[1_/_-1] z-10`}>
-                    <a className="h-full" href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer">
+                  <div className={`h-full w-full bg-green relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[6_/_-1]' : 'md:col-[1_/_8]'} row-[1_/_-1] z-10`}>
+                    <a className="h-full opacity-25 md:opacity-50 hover:md:opacity-100 focus:md:opacity-100" href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer">
                       <img
                         className="h-full"
-                        src={images.filter((image) => (
-                          image.includes(project.image) ? image : ''
-                        ))}
+                        src={images && images[project.id - 1]}
                         alt={project.name}
                       />
                     </a>
