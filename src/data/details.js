@@ -14,7 +14,7 @@ const projectDetails = [
     name: 'Motorcycle Booking Service',
     description: `Book-an-appointment is based on an app
                   to book an appointment to try a motorcycle.`,
-    image: './assets/images/Desktop-Snapshoot-Portfolio.png',
+    image: 'motorcycle',
     technologies: ['React', 'Redux', 'CSS', 'Bootstrap'],
     'live-version-link': { ...liveVersionLink, 'link-href': 'https://preeminent-vacherin-1e2f8e.netlify.app/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/book-an-appointment-front-end' },
@@ -26,7 +26,7 @@ const projectDetails = [
                   where you can manage your budget: you have a list 
                   of transactions associated with a category, so that 
                   you can see how much money you spent for that category and on what.`,
-    image: './assets/images/Desktop-Snapshoot-Portfolio.png',
+    image: 'money-manager',
     technologies: ['React', 'Redux', 'CSS'],
     'live-version-link': { ...liveVersionLink, 'link-href': 'https://money-manager-achilles.herokuapp.com/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/budget-app' },
@@ -35,8 +35,9 @@ const projectDetails = [
   {
     id: 3,
     name: 'Bookstore App',
-    description: 'This apllication contains a list of books with their completion stages.',
-    image: './assets/images/Desktop-Snapshoot-Portfolio.png',
+    description: `This aplication contains a list of books with their completion stages. That is,
+                  the percentage of the number of pages read to the total number of pages of the book.`,
+    image: 'bookstore',
     technologies: ['React', 'Redux', 'CSS'],
     'live-version-link': { ...liveVersionLink, 'link-href': 'https://precious-druid-b78dac.netlify.app/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/bookstore-app' },

@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import projectDetails from '../data/details';
 import githubIcon from '../assets/icons/Icon-GitHub.svg';
 import liveIcon from '../assets/icons/See-Live.svg';
 import folderIcon from '../assets/icons/folder.svg';
+import motorcycleImage from '../assets/images/motorcycle.png';
+import moneyManager from '../assets/images/money-manager.png';
+import bookstore from '../assets/images/bookstore.png';
 
 const Works = () => {
   const projects = projectDetails;
+  const [images, setImages] = useState([]);
+  useEffect(() => {
+    setImages([...images, motorcycleImage, moneyManager, bookstore]);
+  }, []);
+
   return (
-    <section className="m-5 pb-12 md:p-14 lg:p-24 text-slate-300">
+    <section className="m-5 pb-12 md:p-14 lg:p-24 text-slate-300" id="work">
       <div>
         <div className=" flex justify-center">
           <h1 className="text-4xl p-3 border-0 border-b-2 border-b-green">My Recent Works</h1>
@@ -19,7 +27,7 @@ const Works = () => {
                 <li key={project.id} className="grid grid-cols-12 gap-2 mb-7 relative p-5 items-center">
                   <div className={`flex flex-col gap-4 p-7 md-p-0 relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[1_/_9] lg:col-[1_/_7]' : 'md:col-[5_/_-1] lg:col-[7_/_-1]'} row-[1_/_-1] z-20`}>
                     <h2 className={`flex justify-start ${project.id % 2 === 0 ? 'md:justify-start' : 'md:justify-end'} text-3xl`}>
-                      <a href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer">
+                      <a href={project['live-version-link']['link-href']} className="hover:text-green focus:text-green " target="_blank" rel="noopener noreferrer">
                         {project.name}
                       </a>
                     </h2>
@@ -41,8 +49,14 @@ const Works = () => {
                     </div>
                   </div>
                   <div className={`opacity-25 h-full w-full md:opacity-100 bg-slate-200 relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[6_/_-1]' : 'md:col-[1_/_8]'} row-[1_/_-1] z-10`}>
-                    <a className="work-image" href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer">
-                      <img className="work-image" src="" alt={project.name} />
+                    <a className="h-full" href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer">
+                      <img
+                        className="h-full"
+                        src={images.filter((image) => (
+                          image.includes(project.image) ? image : ''
+                        ))}
+                        alt={project.name}
+                      />
                     </a>
                   </div>
                 </li>
