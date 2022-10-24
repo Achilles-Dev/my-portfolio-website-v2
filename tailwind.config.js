@@ -57,6 +57,9 @@ module.exports = {
           },
         },
       },
+      screens: {
+        xsm: { raw: '(max-width: 550px)' },
+      },
     },
   },
   plugins: [],
