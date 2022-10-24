@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Headline = () => (
-  <section className="animate-fade-out-up flex flex-col gap-10 flex-grow bg-navy text-slate-300 px-8 py-12 md:p-14 lg:p-24 text-xl">
+  <section className="animate-fade-out-up flex flex-col justify-center gap-10 flex-grow text-slate-300 px-8 md:p-14 text-xl">
     <div className="">
       <p className="flex flex-col text-xl tracking-widest">
         HELLO, MY NAME IS

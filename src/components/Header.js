@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import logoIcon from '../assets/icons/sh_logo2.svg';
 import menuIcon from '../assets/icons/square.svg';
+import Resume from '../assets/files/Resume.pdf';
 
 const Header = () => {
   useEffect(() => {
@@ -38,7 +39,15 @@ const Header = () => {
               <a href="#contact" className="focus:text-green hover:text-green">Contact</a>
             </li>
             <li className="border p-2 border-green hover:bg-slate-700" id="nav-link">
-              <a href="#resume" className="text-green">Resume</a>
+              <a
+                href={Resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                download="test"
+                className="text-green"
+              >
+                Resume
+              </a>
             </li>
           </ul>
         </div>

@@ -15,7 +15,7 @@ const Works = () => {
   }, []);
 
   return (
-    <section className="my-5 px-8 py-12 pb-12 md:p-14 lg:p-24 text-slate-300" id="work">
+    <section className="my-5 px-8 py-14 pb-12 md:p-14 lg:p-24 text-slate-300" id="work">
       <div>
         <div className=" flex justify-center">
           <h1 className="text-4xl p-3 border-0 border-b-2 border-b-green">My Recent Works</h1>
@@ -48,8 +48,8 @@ const Works = () => {
                       </a>
                     </div>
                   </div>
-                  <div className={`h-full w-full bg-green relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[6_/_-1]' : 'md:col-[1_/_8]'} row-[1_/_-1] z-10`}>
-                    <a className="h-full opacity-25 md:opacity-50 hover:md:opacity-100 focus:md:opacity-100" href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer">
+                  <div className={`h-full opacity-25 md:opacity-50 hover:md:opacity-100 w-full md:bg-green bg-slate-200 relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[6_/_-1]' : 'md:col-[1_/_8]'} row-[1_/_-1] z-10`}>
+                    <a className="h-full focus:md:opacity-100" href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer">
                       <img
                         className="h-full"
                         src={images && images[project.id - 1]}

@@ -1,3 +1,4 @@
+import About from './components/About';
 import Header from './components/Header';
 import Headline from './components/Headline';
 import Works from './components/Works';
@@ -10,6 +11,7 @@ function App() {
         <Headline />
       </div>
       <Works />
+      <About />
     </div>
   );
 }
