@@ -34,8 +34,8 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="h-screen" id="home">
-      <section className={`${menuTab} bg-navy fixed top-0 left-0 right-0 h-screen w-full z-50`}>
+    <div className="" id="home">
+      <section className={`${menuTab} bg-navy fixed top-0 left-0 right-0 w-full z-50`}>
         <nav className="flex flex-col gap-12 w-full p-20">
           <div className="flex justify-end">
             <button type="button" onClick={handleClose}>
