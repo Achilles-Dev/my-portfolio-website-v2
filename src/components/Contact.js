@@ -37,10 +37,10 @@ const Contact = () => {
     <section className="px-8 py-12 md:p-14 lg:p-24 text-slate-300" id="contact">
       <div className="grid grid-cols-12 grid-rows-2 md:grid-rows-1 gap-4">
         <div className="md:col-[_1/_7] md:row-[_1/_-1] col-[_1/_-1] row-[_1/_2] flex flex-col justify-center">
-          <header className="flex justify-center text-4xl mb-5 p-3">
+          <header className="wow pulse flex justify-center text-4xl mb-5 p-3">
             <h2 className="p-3 border-0 border-b-2 border-green">Contact me</h2>
           </header>
-          <h2 className="p-3 mb-5">
+          <h2 className="wow fadeInDown p-3 mb-5">
             I&apos;m always interested in hearing about new projects,
             if you&apos;d like me to build an application or a feature,
             you can get in touch with me here.
@@ -54,7 +54,7 @@ const Contact = () => {
                 resetForm();
               }}
             >
-              <Form className="flex flex-col gap-3">
+              <Form className="wow fadeInDown flex flex-col gap-3">
                 <div className="flex xsm:flex-col gap-3 w-full">
                   <div className="flex flex-col xsm:w-full w-1/2">
                     <Field
@@ -96,7 +96,7 @@ const Contact = () => {
             </Formik>
           </div>
         </div>
-        <div className="md:col-[_7/_-1] md:row-[_1/_-1] col-[_1/_-1] row-[_2/_-1] h-[500px] md:h-auto border">
+        <div className="wow fadeInDown md:col-[_7/_-1] md:row-[_1/_-1] col-[_1/_-1] row-[_2/_-1] h-[500px] md:h-auto border">
           <img className="w-full h-full" src={map} alt="map" />
         </div>
       </div>

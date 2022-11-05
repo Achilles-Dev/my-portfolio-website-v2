@@ -15,16 +15,16 @@ const Works = () => {
   }, []);
 
   return (
-    <section className="animate-fade-out-up my-5 px-8 py-14 pb-12 md:p-14 lg:p-24 text-slate-300" id="work">
+    <section className="my-5 px-8 py-14 pb-12 md:p-14 lg:p-24 text-slate-300" id="work">
       <div>
-        <div className=" flex justify-center">
+        <div className="wow pulse flex justify-center" data-wow-delay="0.5s">
           <h1 className="text-4xl p-3 border-0 border-b-2 border-b-green">My Recent Works</h1>
         </div>
         <ul className="my-16 flex flex-col gap-5">
           { projects.map((project) => (
             project.id <= 3
               ? (
-                <li key={project.id} className="grid grid-cols-12 gap-2 mb-7 relative items-center">
+                <li key={project.id} className="wow fadeInUp grid grid-cols-12 gap-2 mb-7 relative items-center">
                   <div className={`flex flex-col gap-4 p-7 md-p-0 relative col-[1_/_-1] ${project.id % 2 === 0 ? 'md:col-[1_/_9] lg:col-[1_/_7]' : 'md:col-[5_/_-1] lg:col-[7_/_-1]'} row-[1_/_-1] z-20`}>
                     <h2 className={`flex justify-start ${project.id % 2 === 0 ? 'md:justify-start' : 'md:justify-end'} text-3xl`}>
                       <a href={project['live-version-link']['link-href']} className="hover:text-green focus:text-green " target="_blank" rel="noopener noreferrer">
@@ -63,7 +63,7 @@ const Works = () => {
         </ul>
       </div>
       <div>
-        <div className=" flex justify-center">
+        <div className="wow pulse flex justify-center">
           <h1 className="text-4xl p-3 border-0 border-b-2 border-b-green">Other Works</h1>
         </div>
         <ul className="my-10 gap-2 grid md:grid-cols-2 lg:grid-cols-3">
@@ -72,7 +72,7 @@ const Works = () => {
               project.id > 3
                 ? (
                   <a key={project.id} href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer" className="flex">
-                    <li className="flex flex-col justify-between gap-3 bg-ligth-navy p-5">
+                    <li className="wow fadeInUp flex flex-col justify-between gap-3 bg-ligth-navy p-5">
                       <header className="flex flex-col gap-3">
                         <div className="flex justify-between items-center pb-4">
                           <img src={folderIcon} className="" alt="folder" />
