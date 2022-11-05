@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Headline = () => (
-  <section className="animate-fade-out-up flex flex-col justify-center gap-10 flex-grow text-slate-300 px-8 md:p-14 text-xl max-h-screen">
+  <section className="animate-fade-in-down flex flex-col justify-center gap-10 flex-grow text-slate-300 px-8 md:p-14 text-xl max-h-screen">
     <div className="">
       <p className="flex flex-col text-xl tracking-widest">
         HELLO, MY NAME IS
@@ -14,7 +14,7 @@ const Headline = () => (
         user-centered products for my customers. I am based in Kumasi - Ghana.
       </p>
     </div>
-    <div className="mt-5">
+    <div className="mt-5 flex flex-wrap animate-wiggle">
       <Link
         to="#contact"
         className="border px-10 py-3 border-green text-green hover:bg-slate-700"

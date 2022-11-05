@@ -42,7 +42,7 @@ const Header = () => {
               <img src={closeIcon} alt="close" />
             </button>
           </div>
-          <ul className="flex flex-col gap-5 items-center text-white text-2xl" id="nav-links">
+          <ul className="flex flex-col gap-5 items-center text-white text-2xl">
             <li className="p-2" id="nav-link">
               <a href="#home" className="focus:text-green hover:text-green">Home</a>
             </li>
@@ -76,7 +76,7 @@ const Header = () => {
               <img className="animate-spin-slow" src={logoIcon} alt="SH" />
             </a>
           </div>
-          <div className="hidden md:block animate-fade-in-down">
+          <div className="hidden md:block animate-slidein">
             <ul className="flex gap-5 items-center text-white" id="nav-links">
               <li className="p-2" id="nav-link">
                 <a href="#about" className="focus:text-green hover:text-green">About</a>

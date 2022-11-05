@@ -12,20 +12,18 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 2s linear',
-        slidein: 'slidein 2s',
-        wiggle: 'wiggle 2s ease-in-out',
-        'fade-in-down': 'fade-in-down 0.5s ease-out',
-        'fade-out-up': 'fade-out-up 0.5s ease-out',
+        slidein: 'slidein 3s ease-in-out',
+        wiggle: 'wiggle 1s ease-in-out',
+        'fade-in-down': 'fade-in-down 3s ease-in-out',
+        'fade-out-up': 'fade-out-up 3s ease-in-out',
       },
       keyframes: {
         slidein: {
           from: {
-            'margin-left': '50%',
-            width: '150%',
+            'margin-left': '100%',
           },
           to: {
-            'margin-right': '0%',
-            width: '100%',
+            'margin-left': '0%',
           },
         },
         wiggle: {
