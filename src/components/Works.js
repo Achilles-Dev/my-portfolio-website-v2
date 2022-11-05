@@ -15,9 +15,9 @@ const Works = () => {
   }, []);
 
   return (
-    <section className="my-5 px-8 py-14 pb-12 md:p-14 lg:p-24 text-slate-300" id="work">
+    <section className="px-8 py-12 md:p-14 lg:p-24 text-slate-300" id="work">
       <div>
-        <div className="wow pulse flex justify-center" data-wow-delay="0.5s">
+        <div className="wow pulse flex justify-center p-3" data-wow-delay="0.5s">
           <h1 className="text-4xl p-3 border-0 border-b-2 border-b-green">My Recent Works</h1>
         </div>
         <ul className="my-16 flex flex-col gap-5">

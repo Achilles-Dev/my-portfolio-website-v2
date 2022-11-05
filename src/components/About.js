@@ -2,8 +2,8 @@ import React from 'react';
 import Profile from '../assets/images/profile_image.jpeg';
 
 const About = () => (
-  <section className="px-8 py-12 pb-12 md:p-14 lg:p-24 text-slate-300" id="about">
-    <div className="wow pulse flex justify-center mb-5">
+  <section className="px-8 py-12 md:p-14 lg:p-24 text-slate-300" id="about">
+    <div className="wow pulse flex justify-center mb-5 p-3">
       <h2 className="text-4xl p-3 border-0 border-b-2 border-b-green">About me</h2>
     </div>
     <div className="grid grid-cols-12 gap-3">
