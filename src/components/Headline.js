@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Headline = () => (
   <section className="flex flex-col justify-center gap-10 flex-grow text-slate-300 px-8 md:p-14 text-xl max-h-screen">
@@ -15,12 +14,7 @@ const Headline = () => (
       </p>
     </div>
     <div className="wow rollIn mt-5 flex flex-wrap">
-      <Link
-        to="#contact"
-        className="border px-10 py-3 border-green text-green hover:bg-slate-700"
-      >
-        Contact me!
-      </Link>
+      <a href="#contact" className="border px-10 py-3 border-green text-green hover:bg-slate-700">Contact me!</a>
     </div>
   </section>
 );
