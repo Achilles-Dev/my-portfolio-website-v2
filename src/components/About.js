@@ -34,6 +34,8 @@ const About = () => (
               <li className="border p-3 border-green">Postgresql</li>
               <li className="border p-3 border-green">Mysql</li>
               <li className="border p-3 border-green">MongoDB</li>
+              <li className="border p-3 border-green">RSpec</li>
+              <li className="border p-3 border-green">Jest</li>
             </ul>
           </div>
         </div>
