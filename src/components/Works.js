@@ -72,7 +72,7 @@ const Works = () => {
               project.id > 3
                 ? (
                   <a key={project.id} href={project['live-version-link']['link-href']} target="_blank" rel="noopener noreferrer" className="flex">
-                    <li className="wow fadeInUp flex flex-col justify-between gap-3 bg-ligth-navy p-5">
+                    <li className="wow fadeInUp flex flex-col justify-between gap-3 hover:scale-x-105 md:hover:scale-100 lg:hover:scale-y-110 bg-ligth-navy p-5">
                       <header className="flex flex-col gap-3">
                         <div className="flex justify-between items-center pb-4">
                           <img src={folderIcon} className="" alt="folder" />

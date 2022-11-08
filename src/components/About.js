@@ -7,7 +7,7 @@ const About = () => (
       <h2 className="text-4xl p-3 border-0 border-b-2 border-b-green">About me</h2>
     </div>
     <div className="grid grid-cols-12 gap-3">
-      <div className="wow fadeInUp opacity-5 md:opacity-100 col-[_1/_-1] md:col-[_1/_7] row-[_1/_-1] w-full h-full flex md:items-center">
+      <div className="wow fadeInUp flex md:items-center opacity-5 md:opacity-100 col-[_1/_-1] md:col-[_1/_7] row-[_1/_-1] md:row-[_1/_5] w-full h-full">
         <img src={Profile} alt="Solomon Hagan" />
       </div>
       <div className="col-[_1/_-1] md:col-[_7/_-1] row-[_1/_-1] p-3 h-full">
