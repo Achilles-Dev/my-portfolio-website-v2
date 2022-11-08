@@ -7,8 +7,8 @@ import Works from './components/Works';
 
 function App() {
   return (
-    <div className="App bg-navy">
-      <div className="flex flex-col h-screen">
+    <div className={`App bg-navy ${window.innerHeight < 700 ? 'flex flex-col' : ''}`}>
+      <div className={`flex flex-col ${window.innerHeight > 700 ? 'h-screen' : ''}`}>
         <Header />
         <Headline />
       </div>

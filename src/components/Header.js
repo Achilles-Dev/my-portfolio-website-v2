@@ -24,7 +24,6 @@ const Header = () => {
 
   useEffect(() => {
     const navLinks = document.querySelector('#nav-links');
-    // const menuNavLinks = document.querySelector('#menu-nav-links');
     document.addEventListener('click', (e) => {
       if (e.target.parentNode.id === 'nav-link') {
         navLinks.childNodes.forEach((ele) => {
@@ -42,7 +41,7 @@ const Header = () => {
   }, [menuTab]);
 
   return (
-    <div className="" id="home">
+    <div id="home">
       <header className="bg-navy px-5 fixed top-0 left-0 right-0 z-30">
         <nav className="flex justify-between items-center">
           <div>

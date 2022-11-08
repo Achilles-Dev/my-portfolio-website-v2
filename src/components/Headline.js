@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Headline = () => (
-  <section className="flex flex-col justify-center gap-10 flex-grow text-slate-300 px-8 md:p-14 text-xl max-h-screen">
+  <section className={`flex gap-10 flex-col justify-center flex-grow text-slate-300 px-8 md:p-14 text-xl ${window.innerHeight < 700 ? 'mt-24' : 'max-h-screen'}`}>
     <div className="">
       <p className="wow fadeInLeft flex flex-col text-xl tracking-widest">
         HELLO, MY NAME IS
