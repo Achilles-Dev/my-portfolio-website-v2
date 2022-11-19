@@ -17,9 +17,7 @@ const Header = () => {
   };
 
   useEffect(() => {
-    new WOW.WOW({
-      live: false,
-    }).init();
+    new WOW.WOW().init();
   }, []);
 
   useEffect(() => {
@@ -46,10 +44,10 @@ const Header = () => {
         <nav className="flex justify-between items-center">
           <div>
             <a href="/" id="nav-link">
-              <img className="wow bounceInDown" src={logoIcon} alt="SH" />
+              <img className="wow bounceInDown" data-wow-duration="2s" src={logoIcon} alt="SH" />
             </a>
           </div>
-          <div className="wow fadeInDown hidden md:block">
+          <div className="wow fadeInDown hidden md:block" data-wow-duration="2s">
             <ul className="flex gap-5 items-center text-white" id="nav-links">
               <li className="p-2" id="nav-link">
                 <a href="#about" className="focus:text-green hover:text-green">About</a>
@@ -73,7 +71,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="wow bounceInRight md:hidden">
+          <div className="wow bounceInRight md:hidden" data-wow-duration="2s">
             <button type="button" onClick={handleMenuDisplay}>
               <img src={menuIcon} alt="Menu" />
             </button>
@@ -83,24 +81,24 @@ const Header = () => {
       <section className={`${menuTab} bg-navy fixed top-0 left-0 right-0 w-full h-full z-50`}>
         <nav className="flex flex-col gap-12 w-full p-20">
           <div className="flex justify-end">
-            <button className="wow rollIn" type="button" onClick={handleClose}>
+            <button className="wow rollIn" type="button" data-wow-duration="2s" onClick={handleClose}>
               <img src={closeIcon} alt="close" />
             </button>
           </div>
           <ul className="flex flex-col gap-5 items-center text-white text-2xl" id="menu-nav-links">
-            <li className="wow bounceInLeft p-2" id="menu-nav-link">
+            <li className="wow bounceInLeft p-2" id="menu-nav-link" data-wow-duration="2s">
               <a href="#home" className="focus:text-green hover:text-green">Home</a>
             </li>
-            <li className="wow bounceInRight p-2" id="menu-nav-link">
+            <li className="wow bounceInRight p-2" id="menu-nav-link" data-wow-duration="2s">
               <a href="#about" className="focus:text-green hover:text-green">About</a>
             </li>
-            <li className="wow bounceInLeft p-2" id="menu-nav-link">
+            <li className="wow bounceInLeft p-2" id="menu-nav-link" data-wow-duration="2s">
               <a href="#work" className="focus:text-green hover:text-green">Work</a>
             </li>
-            <li className="wow bounceInRight p-2" id="menu-nav-link">
+            <li className="wow bounceInRight p-2" id="menu-nav-link" data-wow-duration="2s">
               <a href="#contact" className="focus:text-green hover:text-green">Contact</a>
             </li>
-            <li className="wow bounceInLeft border p-2 border-green hover:bg-slate-700" id="menu-nav-link">
+            <li className="wow bounceInLeft border p-2 border-green hover:bg-slate-700" id="menu-nav-link" data-wow-duration="2s">
               <a
                 href={Resume}
                 target="_blank"
