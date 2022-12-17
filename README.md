@@ -8,7 +8,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://power-motors.netlify.app/)
 
 
 ## Getting Started
