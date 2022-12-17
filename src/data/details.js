@@ -28,7 +28,7 @@ const projectDetails = [
                   you can see how much money you spent for that category and on what.`,
     image: 'money-manager',
     technologies: ['React', 'Redux', 'CSS'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://money-manager-achilles.herokuapp.com/' },
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://money-manager-achilles.onrender.com/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/budget-app' },
 
   },
