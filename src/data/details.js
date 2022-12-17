@@ -16,7 +16,7 @@ const projectDetails = [
                   to book an appointment to try a motorcycle.`,
     image: 'motorcycle',
     technologies: ['React', 'Redux', 'CSS', 'Bootstrap'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://preeminent-vacherin-1e2f8e.netlify.app/' },
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://power-motors.netlify.app/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/book-an-appointment-front-end' },
   },
   {
