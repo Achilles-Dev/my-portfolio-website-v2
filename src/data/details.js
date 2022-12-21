@@ -15,8 +15,8 @@ const projectDetails = [
     description: `Book-an-appointment is based on an app
                   to book an appointment to try a motorcycle.`,
     image: 'motorcycle',
-    technologies: ['React', 'Redux', 'CSS', 'Bootstrap'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://power-motors.netlify.app/' },
+    technologies: ['React', 'Redux', 'CSS', 'Bootstrap', 'Ruby on Rails'],
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://preeminent-vacherin-1e2f8e.netlify.app/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/book-an-appointment-front-end' },
   },
   {
@@ -28,7 +28,7 @@ const projectDetails = [
                   you can see how much money you spent for that category and on what.`,
     image: 'money-manager',
     technologies: ['React', 'Redux', 'CSS'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://money-manager-achilles.onrender.com/' },
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://money-manager-achilles.herokuapp.com/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/budget-app' },
 
   },
@@ -44,13 +44,16 @@ const projectDetails = [
   },
   {
     id: 4,
-    name: 'To Do List',
-    description: 'A mobile view website that keeps track of activities to perform during the'
-                  + 'day and checks and deletes completed activities.',
-    image: './assets/images/react-todo.png',
-    technologies: ['HTML', 'CSS', 'React'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://achilles-dev.github.io/react-todo-app/' },
-    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/react-todo-app/' },
+    name: 'Recipe App',
+    description: `The Recipe app keeps track of all your recipes, ingredients, and inventory.
+                  It allows you to save ingredients, keep track of what you have, create recipes,
+                  and generate a shopping list based on what you have and what you are missing from
+                  a recipe. Also, since sharing recipes is an important part of cooking,
+                  the app should allow you to make them public so anyone can access them.`,
+    image: './assets/images/recipe-app.png',
+    technologies: ['Ruby', 'Ruby on Rails', 'SCSS & Bootstrap 5'],
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://recipe-app-8nry.onrender.com' },
+    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/recipe-app/' },
   },
   {
     id: 5,
