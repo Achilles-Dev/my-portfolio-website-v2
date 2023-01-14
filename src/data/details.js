@@ -16,7 +16,7 @@ const projectDetails = [
                   to book an appointment to try a motorcycle.`,
     image: 'motorcycle',
     technologies: ['React', 'Redux', 'CSS', 'Bootstrap', 'Ruby on Rails'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://preeminent-vacherin-1e2f8e.netlify.app/' },
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://power-motors.netlify.app/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/book-an-appointment-front-end' },
   },
   {
@@ -28,7 +28,7 @@ const projectDetails = [
                   you can see how much money you spent for that category and on what.`,
     image: 'money-manager',
     technologies: ['React', 'Redux', 'CSS'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://money-manager-achilles.herokuapp.com/' },
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://budget-app-achilles-dev.fly.dev/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/budget-app' },
 
   },
@@ -39,7 +39,7 @@ const projectDetails = [
                   the percentage of the number of pages read to the total number of pages of the book.`,
     image: 'bookstore',
     technologies: ['React', 'Redux', 'CSS'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://precious-druid-b78dac.netlify.app/' },
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://bookstore-app-achilles-dev.netlify.app/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/bookstore-app' },
   },
   {
@@ -52,7 +52,7 @@ const projectDetails = [
                   the app should allow you to make them public so anyone can access them.`,
     image: './assets/images/recipe-app.png',
     technologies: ['Ruby', 'Ruby on Rails', 'SCSS & Bootstrap 5'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://recipe-app-8nry.onrender.com' },
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://recipe-app.fly.dev' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/recipe-app/' },
   },
   {
@@ -64,7 +64,7 @@ const projectDetails = [
                   - read a random math-related quote.`,
     image: './assets/images/Desktop-Snapshoot-Portfolio.png',
     technologies: ['React', 'CSS'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://joyful-dolphin-85efd9.netlify.app/' },
+    'live-version-link': { ...liveVersionLink, 'link-href': 'https://math-magician-app-achilles-dev.netlify.app/' },
     'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/math-magicians-app' },
   },
   {
