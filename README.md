@@ -4,12 +4,12 @@
 ## Built With
 
 - JavaScript
-- React, Tailwind CSS
+- React
+- Tailwind CSS
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://power-motors.netlify.app/)
-
+[Solomon Hagan](https://solomonhagan.netlify.app/)
 
 ## Getting Started
 
@@ -22,8 +22,8 @@
    ```
    cd my-portfolio-website-v2
    ```
-   ```
-2. Install the npm:
+   
+2. Install modules:
    ```
    npm install
    ```
@@ -33,13 +33,9 @@
    ```
 
 ### Prerequisites
-- React
-- Terminal
-
-### Install
+- JavaScript
 - React
 - Tailwind CSS
-
 
 ## Authors
 
