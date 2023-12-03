@@ -14,7 +14,7 @@ const projectDetails = [
     name: 'Results Analyser App',
     description: `The results analyser app is basically used to analyse the WASCCE Results of students
       to know the general performance of the students for management decision and report to Eduvcational directorate.`,
-    image: 'motorcycle',
+    image: 'results-analyser',
     technologies: [
       'Nextjs',
       'Typescript',
