@@ -43,7 +43,7 @@ const projectDetails = [
     technologies: ['React', 'Redux', 'CSS'],
     'live-version-link': {
       ...liveVersionLink,
-      'link-href': 'https://money-manager-achilles.herokuapp.com/',
+      'link-href': 'https://budget-app-achilles-dev.fly.dev',
     },
     'source-link': {
       ...sourceLink,
@@ -59,7 +59,7 @@ const projectDetails = [
     technologies: ['React', 'Redux', 'CSS'],
     'live-version-link': {
       ...liveVersionLink,
-      'link-href': 'https://precious-druid-b78dac.netlify.app/',
+      'link-href': 'https://bookstore-static-app.netlify.app',
     },
     'source-link': {
       ...sourceLink,
@@ -78,7 +78,7 @@ const projectDetails = [
     technologies: ['Ruby', 'Ruby on Rails', 'SCSS & Bootstrap 5'],
     'live-version-link': {
       ...liveVersionLink,
-      'link-href': 'https://recipe-app-8nry.onrender.com',
+      'link-href': 'https://recipe-app.fly.dev',
     },
     'source-link': {
       ...sourceLink,
@@ -96,7 +96,7 @@ const projectDetails = [
     technologies: ['React', 'CSS'],
     'live-version-link': {
       ...liveVersionLink,
-      'link-href': 'https://joyful-dolphin-85efd9.netlify.app/',
+      'link-href': 'https://mathmagician-spa.netlify.app',
     },
     'source-link': {
       ...sourceLink,
@@ -131,7 +131,7 @@ const projectDetails = [
     technologies: ['React', 'Redux', 'CSS', 'Bootstrap', 'Ruby on Rails'],
     'live-version-link': {
       ...liveVersionLink,
-      'link-href': 'https://preeminent-vacherin-1e2f8e.netlify.app/',
+      'link-href': 'https://power-motors.netlify.app',
     },
     'source-link': {
       ...sourceLink,
