@@ -26,6 +26,10 @@ const projectDetails = [
       ...liveVersionLink,
       'link-href': 'https://resultsanalysis.fly.dev/',
     },
+    'source-link': {
+      ...sourceLink,
+      'source-href': 'https://github.com/Achilles-Dev/resultsanalyser',
+    },
   },
   {
     id: 2,
