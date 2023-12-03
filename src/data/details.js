@@ -11,13 +11,21 @@ const sourceLink = {
 const projectDetails = [
   {
     id: 1,
-    name: 'Motorcycle Booking Service',
-    description: `Book-an-appointment is based on an app
-                  to book an appointment to try a motorcycle.`,
+    name: 'Results Analyser App',
+    description: `The results analyser app is basically used to analyse the WASCCE Results of students
+      to know the general performance of the students for management decision and report to Eduvcational directorate.`,
     image: 'motorcycle',
-    technologies: ['React', 'Redux', 'CSS', 'Bootstrap'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://preeminent-vacherin-1e2f8e.netlify.app/' },
-    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/book-an-appointment-front-end' },
+    technologies: [
+      'Nextjs',
+      'Typescript',
+      'Tailwind CSS',
+      'NextUI',
+      'Supabase & Sequelize (Postgresql)',
+    ],
+    'live-version-link': {
+      ...liveVersionLink,
+      'link-href': 'https://resultsanalysis.fly.dev/',
+    },
   },
   {
     id: 2,
@@ -28,9 +36,14 @@ const projectDetails = [
                   you can see how much money you spent for that category and on what.`,
     image: 'money-manager',
     technologies: ['React', 'Redux', 'CSS'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://money-manager-achilles.herokuapp.com/' },
-    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/budget-app' },
-
+    'live-version-link': {
+      ...liveVersionLink,
+      'link-href': 'https://money-manager-achilles.herokuapp.com/',
+    },
+    'source-link': {
+      ...sourceLink,
+      'source-href': 'https://github.com/Achilles-Dev/budget-app',
+    },
   },
   {
     id: 3,
@@ -39,18 +52,33 @@ const projectDetails = [
                   the percentage of the number of pages read to the total number of pages of the book.`,
     image: 'bookstore',
     technologies: ['React', 'Redux', 'CSS'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://precious-druid-b78dac.netlify.app/' },
-    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/bookstore-app' },
+    'live-version-link': {
+      ...liveVersionLink,
+      'link-href': 'https://precious-druid-b78dac.netlify.app/',
+    },
+    'source-link': {
+      ...sourceLink,
+      'source-href': 'https://github.com/Achilles-Dev/bookstore-app',
+    },
   },
   {
     id: 4,
-    name: 'To Do List',
-    description: 'A mobile view website that keeps track of activities to perform during the'
-                  + 'day and checks and deletes completed activities.',
-    image: './assets/images/react-todo.png',
-    technologies: ['HTML', 'CSS', 'React'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://achilles-dev.github.io/react-todo-app/' },
-    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/react-todo-app/' },
+    name: 'Recipe App',
+    description: `The Recipe app keeps track of all your recipes, ingredients, and inventory.
+                  It allows you to save ingredients, keep track of what you have, create recipes,
+                  and generate a shopping list based on what you have and what you are missing from
+                  a recipe. Also, since sharing recipes is an important part of cooking,
+                  the app should allow you to make them public so anyone can access them.`,
+    image: './assets/images/recipe-app.png',
+    technologies: ['Ruby', 'Ruby on Rails', 'SCSS & Bootstrap 5'],
+    'live-version-link': {
+      ...liveVersionLink,
+      'link-href': 'https://recipe-app-8nry.onrender.com',
+    },
+    'source-link': {
+      ...sourceLink,
+      'source-href': 'https://github.com/Achilles-Dev/recipe-app/',
+    },
   },
   {
     id: 5,
@@ -61,8 +89,14 @@ const projectDetails = [
                   - read a random math-related quote.`,
     image: './assets/images/Desktop-Snapshoot-Portfolio.png',
     technologies: ['React', 'CSS'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://joyful-dolphin-85efd9.netlify.app/' },
-    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/math-magicians-app' },
+    'live-version-link': {
+      ...liveVersionLink,
+      'link-href': 'https://joyful-dolphin-85efd9.netlify.app/',
+    },
+    'source-link': {
+      ...sourceLink,
+      'source-href': 'https://github.com/Achilles-Dev/math-magicians-app',
+    },
   },
   {
     id: 6,
@@ -72,8 +106,33 @@ const projectDetails = [
                   it's popularly known as PRAISYDRAM`,
     image: './assets/images/Desktop-Snapshoot-Portfolio.png',
     technologies: ['JavaScript', 'HTML', 'CSS'],
-    'live-version-link': { ...liveVersionLink, 'link-href': 'https://achilles-dev.github.io/HTML-CSS-JavaScript-capstone-project/' },
-    'source-link': { ...sourceLink, 'source-href': 'https://github.com/Achilles-Dev/HTML-CSS-JavaScript-capstone-project' },
+    'live-version-link': {
+      ...liveVersionLink,
+      'link-href':
+        'https://achilles-dev.github.io/HTML-CSS-JavaScript-capstone-project/',
+    },
+    'source-link': {
+      ...sourceLink,
+      'source-href':
+        'https://github.com/Achilles-Dev/HTML-CSS-JavaScript-capstone-project',
+    },
+  },
+  {
+    id: 7,
+    name: 'Motorcycle Booking Service',
+    description: `Book-an-appointment is based on an app
+                  to book an appointment to try a motorcycle.`,
+    image: 'motorcycle',
+    technologies: ['React', 'Redux', 'CSS', 'Bootstrap', 'Ruby on Rails'],
+    'live-version-link': {
+      ...liveVersionLink,
+      'link-href': 'https://preeminent-vacherin-1e2f8e.netlify.app/',
+    },
+    'source-link': {
+      ...sourceLink,
+      'source-href':
+        'https://github.com/Achilles-Dev/book-an-appointment-front-end',
+    },
   },
 ];
 

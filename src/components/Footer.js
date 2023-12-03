@@ -8,22 +8,22 @@ const Footer = () => (
   <div className="px-8 pb-5 pt-12 md:px-14 lg:px-24 md:pt-14 lg:pt-24 text-slate-500">
     <div className="flex justify-center my-5">
       <ul className="flex gap-4">
-        <li className="wow fadeInDown">
+        <li className="wow fadeInDown" data-wow-delay="1s" data-wow-duration="2s">
           <a href="https://twitter.com/SoloAchilles/">
             <img src={twitterIcon} alt="Twitter" />
           </a>
         </li>
-        <li className="wow fadeInUp">
+        <li className="wow fadeInUp" data-wow-delay="1s" data-wow-duration="2s">
           <a href="https://www.linkedin.com/in/solomon-hagan/">
             <img src={linkedInIcon} alt="LinkedIn" />
           </a>
         </li>
-        <li className="wow fadeInDown">
+        <li className="wow fadeInDown" data-wow-delay="1s" data-wow-duration="2s">
           <a href="https://github.com/Achilles-Dev/">
             <img src={gitHubIcon} alt="Github" />
           </a>
         </li>
-        <li className="wow fadeInUp">
+        <li className="wow fadeInUp" data-wow-delay="1s" data-wow-duration="2s">
           <a href="https://angel.co/u/solomon-hagan">
             <img src={angelListIcon} alt="Angellist" />
           </a>
@@ -32,17 +32,17 @@ const Footer = () => (
     </div>
     <div className="flex justify-center m-3">
       <ul className="flex flex-col gap-4 p-3 md:flex-row md:flex-wrap">
-        <li className="wow fadeInRight">
+        <li className="wow fadeInRight" data-wow-delay="1s" data-wow-duration="2s">
           Email:
           <span> solohag92@gmail.com</span>
         </li>
-        <li className="wow fadeInLeft">
+        <li className="wow fadeInLeft" data-wow-delay="1s" data-wow-duration="2s">
           Phone:
           <span> +(233)501384153</span>
         </li>
       </ul>
     </div>
-    <div className="wow fadeInDown flex justify-center">
+    <div className="wow fadeInDown flex justify-center" data-wow-delay="1s" data-wow-duration="2s">
       <span>Solomon Hagan &copy;Copyright 2022</span>
     </div>
   </div>

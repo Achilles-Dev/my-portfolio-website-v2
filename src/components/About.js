@@ -3,19 +3,19 @@ import Profile from '../assets/images/profile_image.jpeg';
 
 const About = () => (
   <section className="px-8 py-12 md:p-14 lg:p-24 text-slate-300" id="about">
-    <div className="wow pulse flex justify-center mb-5 p-3">
+    <div className="wow pulse flex justify-center mb-5 p-3" data-wow-delay="1s" data-wow-duration="2s">
       <h2 className="text-4xl p-3 border-0 border-b-2 border-b-green">About me</h2>
     </div>
     <div className="grid grid-cols-12 gap-3">
-      <div className="wow fadeInUp opacity-5 md:opacity-100 col-[_1/_-1] md:col-[_1/_7] row-[_1/_-1] w-full h-full flex md:items-center">
+      <div className="wow fadeInUp flex md:items-center opacity-5 md:opacity-100 col-[_1/_-1] md:col-[_1/_7] row-[_1/_-1] md:row-[_1/_5] w-full h-full" data-wow-delay="1s" data-wow-duration="2s">
         <img src={Profile} alt="Solomon Hagan" />
       </div>
       <div className="col-[_1/_-1] md:col-[_7/_-1] row-[_1/_-1] p-3 h-full">
         <div className="flex flex-col gap-5 h-full justify-center md:justify-start">
           <div>
-            <h2 className="wow fadeInDown text-2xl text-center md:text-start">Self-taught Full Stack Developer</h2>
+            <h2 className="wow fadeInDown text-2xl text-center md:text-start" data-wow-delay="1s" data-wow-duration="2s">Self-taught Full Stack Developer</h2>
           </div>
-          <p className="wow fadeInDown text-md text-center md:text-start">
+          <p className="wow fadeInDown text-md text-center md:text-start" data-wow-delay="1s" data-wow-duration="2s">
             I can help you build a product,
             feature or website. Look through some of my work and experience!
             If you like what you see and have a project you need coded,
@@ -23,7 +23,7 @@ const About = () => (
           </p>
           <div className="flex flex-col gap-3">
             <h3>Technologies I have been working with:</h3>
-            <ul className="wow rollIn flex flex-wrap gap-2 justify-center md:justify-start">
+            <ul className="wow rollIn flex flex-wrap gap-2 justify-center md:justify-start" data-wow-delay="1s" data-wow-duration="2s">
               <li className="border p-3 border-green">JavaScript</li>
               <li className="border p-3 border-green">React</li>
               <li className="border p-3 border-green">Redux</li>
@@ -34,6 +34,8 @@ const About = () => (
               <li className="border p-3 border-green">Postgresql</li>
               <li className="border p-3 border-green">Mysql</li>
               <li className="border p-3 border-green">MongoDB</li>
+              <li className="border p-3 border-green">RSpec</li>
+              <li className="border p-3 border-green">Jest</li>
             </ul>
           </div>
         </div>
