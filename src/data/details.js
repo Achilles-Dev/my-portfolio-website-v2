@@ -24,7 +24,7 @@ const projectDetails = [
     ],
     'live-version-link': {
       ...liveVersionLink,
-      'link-href': 'https://resultsanalysis.fly.dev/',
+      'link-href': 'https://resultsanalyser.fly.dev/',
     },
     'source-link': {
       ...sourceLink,
