@@ -59,6 +59,7 @@ const Works = () => {
                 </h2>
                 <div className="md:bg-ligth-navy py-5 md:px-4 min-h-fit text-slate-400">
                   <p>{project.description}</p>
+                  {project.id === 1 ? <span className="mt-3 text-sky-500">Login with Username: solomon@gmail.com and password: admin123</span> : ''}
                 </div>
                 <ul
                   className={`flex gap-2 flex-wrap justify-start ${

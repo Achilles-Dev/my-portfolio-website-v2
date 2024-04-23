@@ -13,8 +13,7 @@ const projectDetails = [
     id: 1,
     name: 'Results Analyser App',
     description: `The results analyser app is basically used to analyse the WASCCE Results of students
-      to know the general performance of the students for management decision making and report to Educational directorate.
-      Use the default Username: solomon@gmail.com and the default password: admin123 to access it`,
+      to know the general performance of the students for management decision making and report to Educational directorate.`,
     image: 'results-analyser',
     technologies: [
       'Nextjs',
