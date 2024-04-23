@@ -21,11 +21,12 @@ const projectDetails = [
       'Typescript',
       'Tailwind CSS',
       'NextUI',
-      'Supabase & Sequelize (Postgresql)',
+      'Sequelize.js',
+      'Postgresql',
     ],
     'live-version-link': {
       ...liveVersionLink,
-      'link-href': 'https://resultsanalyser.fly.dev/',
+      'link-href': 'https://resultsanalyser.vercel.app',
     },
     'source-link': {
       ...sourceLink,
@@ -34,20 +35,21 @@ const projectDetails = [
   },
   {
     id: 2,
-    name: 'Money Manager',
-    description: `The Money Manager is a mobile web application
-                  where you can manage your budget: you have a list 
-                  of transactions associated with a category, so that 
-                  you can see how much money you spent for that category and on what.`,
-    image: 'money-manager',
-    technologies: ['React', 'Redux', 'CSS'],
+    name: 'Recipe App',
+    description: `The Recipe app keeps track of all your recipes, ingredients, and inventory.
+                  It allows you to save ingredients, keep track of what you have, create recipes,
+                  and generate a shopping list based on what you have and what you are missing from
+                  a recipe. Also, since sharing recipes is an important part of cooking,
+                  the app should allow you to make them public so anyone can access them.`,
+    image: './assets/images/recipe-app.png',
+    technologies: ['Ruby', 'Ruby on Rails', 'SCSS & Bootstrap 5'],
     'live-version-link': {
       ...liveVersionLink,
-      'link-href': 'https://budget-app-achilles-dev.fly.dev',
+      'link-href': 'https://recipe-app.fly.dev',
     },
     'source-link': {
       ...sourceLink,
-      'source-href': 'https://github.com/Achilles-Dev/budget-app',
+      'source-href': 'https://github.com/Achilles-Dev/recipe-app/',
     },
   },
   {
@@ -68,21 +70,20 @@ const projectDetails = [
   },
   {
     id: 4,
-    name: 'Recipe App',
-    description: `The Recipe app keeps track of all your recipes, ingredients, and inventory.
-                  It allows you to save ingredients, keep track of what you have, create recipes,
-                  and generate a shopping list based on what you have and what you are missing from
-                  a recipe. Also, since sharing recipes is an important part of cooking,
-                  the app should allow you to make them public so anyone can access them.`,
-    image: './assets/images/recipe-app.png',
-    technologies: ['Ruby', 'Ruby on Rails', 'SCSS & Bootstrap 5'],
+    name: 'Money Manager',
+    description: `The Money Manager is a mobile web application
+                  where you can manage your budget: you have a list 
+                  of transactions associated with a category, so that 
+                  you can see how much money you spent for that category and on what.`,
+    image: 'money-manager',
+    technologies: ['React', 'Redux', 'CSS'],
     'live-version-link': {
       ...liveVersionLink,
-      'link-href': 'https://recipe-app.fly.dev',
+      'link-href': 'https://budget-app-achilles-dev.fly.dev',
     },
     'source-link': {
       ...sourceLink,
-      'source-href': 'https://github.com/Achilles-Dev/recipe-app/',
+      'source-href': 'https://github.com/Achilles-Dev/budget-app',
     },
   },
   {

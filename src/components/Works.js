@@ -4,14 +4,14 @@ import githubIcon from '../assets/icons/Icon-GitHub.svg';
 import liveIcon from '../assets/icons/See-Live.svg';
 import folderIcon from '../assets/icons/folder.svg';
 import resultsAnalyser from '../assets/images/results-analyser.png';
-import moneyManager from '../assets/images/money-manager.png';
+import recipeApp from '../assets/images/recipe-app.png';
 import bookstore from '../assets/images/bookstore.png';
 
 const Works = () => {
   const projects = projectDetails;
   const [images, setImages] = useState([]);
   useEffect(() => {
-    setImages([...images, resultsAnalyser, moneyManager, bookstore]);
+    setImages([...images, resultsAnalyser, recipeApp, bookstore]);
   }, []);
 
   return (
