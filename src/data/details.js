@@ -11,6 +11,22 @@ const sourceLink = {
 const projectDetails = [
   {
     id: 1,
+    name: 'Restaurant App',
+    description:
+      "This appliacation will be used to manage a restaurant's daily operations.",
+    image: '',
+    technologies: ['JavaScript', 'React', 'Tailwind CSS', 'Postgresql'],
+    'live-version-link': {
+      ...liveVersionLink,
+      'link-href': 'https://harrigeoskitchen.vercel.app',
+    },
+    'source-link': {
+      ...sourceLink,
+      'source-href': 'https://github.com/Achilles-Dev/restaurant-app',
+    },
+  },
+  {
+    id: 2,
     name: 'Results Analyser App',
     description: `The results analyser app is basically used to analyse the WASCCE Results of students
       to know the general performance of the students for management decision making and report to Educational directorate.`,
@@ -33,7 +49,7 @@ const projectDetails = [
     },
   },
   {
-    id: 2,
+    id: 3,
     name: 'Recipe App',
     description: `The Recipe app keeps track of all your recipes, ingredients, and inventory.
                   It allows you to save ingredients, keep track of what you have, create recipes,
@@ -52,7 +68,7 @@ const projectDetails = [
     },
   },
   {
-    id: 3,
+    id: 4,
     name: 'Bookstore App',
     description: `This aplication contains a list of books with their completion stages. That is,
                   the percentage of the number of pages read to the total number of pages of the book.`,
@@ -68,7 +84,7 @@ const projectDetails = [
     },
   },
   {
-    id: 4,
+    id: 5,
     name: 'Money Manager',
     description: `The Money Manager is a mobile web application
                   where you can manage your budget: you have a list 
@@ -86,7 +102,7 @@ const projectDetails = [
     },
   },
   {
-    id: 5,
+    id: 6,
     name: 'Math Magicians App',
     description: `Math magicians" is a website for all fans of mathematics. 
                   It is a Single Page App (SPA) that allows users to:
@@ -104,7 +120,7 @@ const projectDetails = [
     },
   },
   {
-    id: 6,
+    id: 7,
     name: 'PraisyDram Concert',
     description: `The website is based on a yearly concert of Praises and Drama aimed at
                   Evangelizing to the people of God. It is organised by Catholic students in KNUST and
@@ -123,7 +139,7 @@ const projectDetails = [
     },
   },
   {
-    id: 7,
+    id: 8,
     name: 'Motorcycle Booking Service',
     description: `Book-an-appointment is based on an app
                   to book an appointment to try a motorcycle.`,
